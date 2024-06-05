@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rabbitmq"
+version = "0.1.0"
+description = "Introduction to RabbitMQ"
+authors = ["Leul Wujira <96904152+meraf00@users.noreply.github.com>"]
+license = "MIT"
+readme = "readme.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
